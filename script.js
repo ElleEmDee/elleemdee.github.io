@@ -126,6 +126,3 @@ function setWords() {
    document.getElementById("situation").innerHTML = situation[randomNumber3];
   
 }
-
-
-
