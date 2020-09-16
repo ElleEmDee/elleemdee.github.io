@@ -43,6 +43,8 @@ function setWords() {
     "a broccoli",
     "an invisible",
     "a shark",
+    "a robot",
+    "a mushroom",
   ];
   const occupation = [
     "monarch",
@@ -63,7 +65,7 @@ function setWords() {
     "astronaut",
     "fairy",
     "supervillain",
-    "athlete",
+    "figure skater",
     "chef",
     "traveling salesperson",
     "thief",
@@ -77,6 +79,13 @@ function setWords() {
     "toymaker",
     "magical girl",
     "superhero",
+    "hairstylist",
+    "fashion designer",
+    "librarian",
+    "student",
+    "photographer",
+    "football player",
+    "clown",
   ];
 
    const situation = [
@@ -116,6 +125,17 @@ function setWords() {
      "shows off their favorite outfit",
      "during an alien invasion",
      "cheats at a game",
+     "with an amazing hairdo",
+     "visits their grandparents",
+     "at a school reuinion",
+     "sees a fortune teller",
+     "finds a mysterious map",
+     "with their favorite stuffed animal",
+     "at a drive-in movie theater",
+     "gives someone a piggyback ride",
+     "has a nightmare",
+     "reveals a secret",
+     "invents a new holiday",
       ];
 
   const randomNumber1 = Math.floor(Math.random() * occupation.length);
