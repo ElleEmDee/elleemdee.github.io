@@ -2,8 +2,8 @@ setWords()
 
 function setWords() {
   const being = [
-    "an elephant", 
-    "a rat", 
+    "an elephant",
+    "a rat",
     "a dinosaur",
     "a ghost",
     "a donut",
@@ -45,8 +45,8 @@ function setWords() {
     "a shark",
   ];
   const occupation = [
-    "monarch", 
-    "knight", 
+    "monarch",
+    "knight",
     "pirate",
     "YouTube star",
     "spy",
@@ -76,8 +76,9 @@ function setWords() {
     "writer",
     "toymaker",
     "magical girl",
+    "superhero",
   ];
-  
+
    const situation = [
      "explores a dungeon",
      "finds treasure",
@@ -124,5 +125,5 @@ function setWords() {
   document.getElementById("occupation").innerHTML = occupation[randomNumber1];
   document.getElementById("being").innerHTML = being[randomNumber2];
    document.getElementById("situation").innerHTML = situation[randomNumber3];
-  
+
 }
