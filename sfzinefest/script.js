@@ -98,7 +98,7 @@ function setWords() {
      "sees a ghost",
  "runs for president",
      "buys a gift",
-     "does a (failed) science experiment",
+     "does a science experiment",
      "wears a cursed hat",
      "drives a spaceship",
      "just got superpowers",
@@ -136,6 +136,9 @@ function setWords() {
      "has a nightmare",
      "reveals a secret",
      "invents a new holiday",
+     "at a dance-off",
+     "tries to cast a spell",
+     "takes over the world",
       ];
 
   const randomNumber1 = Math.floor(Math.random() * occupation.length);
