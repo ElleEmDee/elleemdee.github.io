@@ -70,7 +70,6 @@ function setWords() {
     "traveling salesperson",
     "thief",
     "cowhand",
-    "comedian",
     "businessperson",
     "dancer",
     "martial artist",
