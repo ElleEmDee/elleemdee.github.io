@@ -84,6 +84,8 @@ function setWords() {
     "football player",
     "clown",
     "witch",
+    "doctor",
+    "dentist",
   ];
 
    const situation = [
