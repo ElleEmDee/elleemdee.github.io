@@ -26,7 +26,6 @@ function setWords() {
     "a raccoon",
     "a bat",
     "a panda",
-    "a swamp creature",
     "a tiger",
     "a skeleton",
     "a giraffe",
