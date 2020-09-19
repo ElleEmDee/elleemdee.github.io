@@ -74,7 +74,6 @@ function setWords() {
     "martial artist",
     "detective",
     "writer",
-    "toymaker",
     "magical girl",
     "superhero",
     "hairstylist",
