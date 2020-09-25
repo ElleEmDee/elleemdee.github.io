@@ -26,6 +26,12 @@ function setWords() {
     "Vinesnit",
     "Ralph",
     "Spygrab",
+    "Possumi",
+    "Jawber",
+    "Nubbins",
+    "Nibblepuff",
+    "Bellitron",
+    "Rookrok",
   ];
   const occupation = [
     "Rot",
@@ -34,7 +40,7 @@ function setWords() {
     "Gas",
     "Sweet Dance Moves",
     "Purify Air",
-    "Screaming",
+    "Screaming. Just screaming.",
     "Looking so cute that everyone else is distracted",
     "Mega High-Fives",
     "Pukes out delicious ramen on command",
@@ -50,6 +56,17 @@ function setWords() {
     "Screen Time",
     "Timeout",
     "Eraser",
+    "Zoom",
+    "Glue",
+    "Makeup",
+    "Unearthly glow",
+    "Crafting",
+    "Kissing",
+    "Faces",
+    "Knitting",
+    "Skating",
+    "Origami",
+    "Fluffy",
   ];
 
 
