@@ -95,6 +95,7 @@ function setWords() {
     "Memes",
     "Zines",
     "Umbrella",
+    "Cactus",
   ];
 
 
