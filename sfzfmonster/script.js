@@ -8,14 +8,14 @@ function setWords() {
     "Derpamon",
     "Dapizard",
     "Dale",
-    "Elefun",
+    "Elefungus",
     "Grickle",
     "Coronette",
     "Pittapod",
     "Thraxobee",
     "Mewthree",
     "Dreepachu",
-    "Doubletrebble",
+    "Snickerpoodle",
     "Frylex",
     "Bearybeary",
     "Rowtongue",
@@ -38,7 +38,7 @@ function setWords() {
     "Tiedyeger",
     "Songhorn",
     "Toucan't",
-    "Groundfish",
+    "Groundflash",
     "Marshmallet",
     "Octopush",
     "Foxensox",
@@ -47,6 +47,10 @@ function setWords() {
     "Puddlelip",
     "Reducks",
     "Pumpking",
+    "Cattywhomper",
+    "Rattoon",
+    "Cuddlefish",
+    "Sledgehog",
   ];
   const occupation = [
     "Rot",
@@ -90,6 +94,7 @@ function setWords() {
     "Cheese",
     "Memes",
     "Zines",
+    "Umbrella",
   ];
 
 
