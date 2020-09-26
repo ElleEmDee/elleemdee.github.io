@@ -15,7 +15,7 @@ function setWords() {
     "Thraxobee",
     "Mewthree",
     "Dreepachu",
-    "Doublefen",
+    "Doubletrebble",
     "Frylex",
     "Bearybeary",
     "Rowtongue",
@@ -42,6 +42,11 @@ function setWords() {
     "Marshmallet",
     "Octopush",
     "Foxensox",
+    "Whinnypig",
+    "Jollypop",
+    "Puddlelip",
+    "Reducks",
+    "Pumpking",
   ];
   const occupation = [
     "Rot",
@@ -83,6 +88,8 @@ function setWords() {
     "Snot",
     "Hair",
     "Cheese",
+    "Memes",
+    "Zines",
   ];
 
 
