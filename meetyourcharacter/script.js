@@ -40,6 +40,9 @@ function setWords() {
     "Your character's neighbors",
     "Your character's personal hero",
     "Something your character believes in",
+    "A recurring dream your character has",
+    "What happens when your character hears their favorite song",
+    "Your character's favorite childhood toy",
   ];
 
 
