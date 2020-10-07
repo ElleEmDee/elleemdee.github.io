@@ -13,7 +13,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #170a45;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #170a45;
 }
 
 body {
@@ -97,6 +97,15 @@ body {
   font-weight: 700;
 }
 
+/*
+  * jumbotron
+*/
+.jumbotron {
+  background-color: white;
+  color:black;
+  text-shadow: none;
+  font-weight: 700;
+}
 
 /*
  * Footer
