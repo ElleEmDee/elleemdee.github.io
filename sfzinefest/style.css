@@ -1,83 +1,54 @@
-@import url(//fonts.googleapis.com/css?family=Monda);
-
 body {
- font-family: "Monda";
- background: black;
+  npm install nes.css
+  yarn add nes.css
+   width: 100%;
+   min-height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
-
-body {
-  text-align: center;
-  margin: 0;
+.nes-btn {
+   margin-top: 2rem;
 }
 
-.wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  flex-direction: column;
-}
-
-.wrap__inner {
-}
-
-.logo {
-  font-weight: normal;
-  color: lime;
-  align-self: top;
-  font-weight: 400;
-  font-size: .8em;
-  position: absolute;
+.navbar {
+  background-color: 000000;
+  position: fixed;
   top: 0;
-  h1 {
-    font-size: .8rem;
-  }
+  width: 100%;
 }
 
-.word {
-  display: block;
-  font-size: 4em;
-  font-weight: 600;
-  color: lime;
+/*
+span {
+   background-color: gold;
+   padding: .5rem 1rem;
+}
+*/
+
+#brands {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+
+   margin: 1rem;
 }
 
-button {
-  padding: 1em;
-  border: 0;
-  background: transparent;
-  text-align: center;
-  margin: 2em auto;
-  border: 2px solid #333;
-  background: #000;
-  color: #fff;
-  font-size: 1em;
-  border-radius: 5px;
-  &:hover {
-    background: #333;
-    color: white;
-    cursor: pointer;
-  }
-}
-/* Style the links inside the navigation bar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.pro {
+   width: 80%;
+
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%, 0);
+   margin-top: 2rem;
 }
 
-/* Change the color of links on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
+.content {
+   display: none;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
