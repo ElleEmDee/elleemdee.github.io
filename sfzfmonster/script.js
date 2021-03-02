@@ -51,6 +51,10 @@ function setWords() {
     "Rattoon",
     "Cuddlefish",
     "Sledgehog",
+    "Oopsiday",
+    "Benji",
+    "Daffypool",
+    "Pinsky",
   ];
   const occupation = [
     "Rot",
@@ -96,6 +100,14 @@ function setWords() {
     "Zines",
     "Umbrella",
     "Cactus",
+    "Snuggling",
+    "Double Bubble",
+    "Bloop",
+    "Garbage",
+    "Banjo",
+    "Eggshells",
+    "Random",
+    "Math",
   ];
 
 
