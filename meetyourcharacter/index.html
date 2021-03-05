@@ -12,7 +12,9 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -38,7 +40,18 @@
     <div class="inner">
       <h3 class="masthead-brand">Get to Know Your Character</h3>
       <nav class="nav nav-masthead justify-content-leftS">
-        <a class="nav-link" href="#">More Prompt Generators</a>
+        <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      More Generators
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://elleemdee.github.io/sfzinefest/">SF Zine Fest Drawing Prompt Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/sfzfmonster/">SF Zine Fest Monster Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/animalclothes/">Animals in Clothes Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/animalprompts/">Animal Character Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/emojiprompts/index">Emoji Prompt Generator</a>
+    </div>
+  </div>
       </nav>
     </div>
   </header>
@@ -53,7 +66,7 @@
 
   <footer class="mastfoot mt-auto">
     <div class="inner">
-      <p>Generator by Lauren Davis. Want to request a generator?</p>
+      <p>Generator by <a href="https://linktr.ee/Daviren">Lauren Davis</a>. Want to request a generator?</p>
     </div>
   </footer>
 </div>
