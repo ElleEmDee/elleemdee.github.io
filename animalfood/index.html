@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Lauren Davis">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Animals and Food Prompt Generator</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet" onclick="setWords()">
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Animals and Food Prompt Generator</h3>
+      <nav class="nav nav-masthead justify-content-leftS">
+
+        <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      More Generators
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="https://elleemdee.github.io/sfzinefest/">SF Zine Fest Drawing Prompt Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/sfzfmonster/">SF Zine Fest Monster Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/meetyourcharacter/">Get to Know Your Character</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/animalclothes/">Animals in Clothes Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/animalprompts/">Animal Character Generator</a>
+      <a class="dropdown-item" href="https://elleemdee.github.io/emojiprompts/index">Emoji Prompt Generator</a>
+    </div>
+  </div>
+
+      </nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+    <h3 class="cover-heading">Make a Story or Drawing That Includes:</h3>
+    <p class="jumbotron">
+      <span id="animal"></span> + <span id="occupation"></span>
+    </p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary" onclick="setWords()">New Prompt</a>
+    </p>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <p>Generator by <a href="https://linktr.ee/Daviren">Lauren Davis</a>. <a href = "mailto: comics@elledee.com">Want to request a generator?</a></p>
+    </div>
+  </footer>
+</div>
+  <script  src="./script.js"></script>
+</body>
+</html>
